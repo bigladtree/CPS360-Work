@@ -27,5 +27,5 @@ syscall
 
 #printing $t3 value
 li $v0, 1
-la $a0, ($t3)
+move $a0, $t3
 syscall
